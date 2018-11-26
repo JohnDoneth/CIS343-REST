@@ -8,7 +8,6 @@ var database = require('./programmers');
 app.use(express.json())
 
 app.get('/', (req, res) => {
-
     res.send(database);
 });
 
@@ -20,13 +19,8 @@ app.get('/:id', (req, res) => {
     if (person != null){
         res.send(person);
     } else {
-        res.send("Data does not exist");
+        res.sendStatus(404);
     }
-
-    //res.send(database[id]);
-
-    //res.send(`Fill me in to return values with ID: ${id}`);
-    
 });
 
 app.put('/:id', (req, res) => {

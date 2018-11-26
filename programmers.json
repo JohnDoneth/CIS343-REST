@@ -2,6 +2,26 @@
 {
     "1" : {
         "firstName": "John",
-        "lastName": "Doneth"
+        "lastName": "Doneth",
+        "age": "21",
+        "role": "Software Developer"
+    },
+    "2" : {
+        "firstName": "Scott",
+        "lastName": "Anderson",
+        "age": "22",
+        "role": "IT Support"
+    },
+    "3" : {
+        "firstName": "Julia",
+        "lastName": "Smith",
+        "age": "22",
+        "role": "Network Administrator"
+    },
+    "4" : {
+        "firstName": "Ralph",
+        "lastName": "Vanderhall",
+        "age": "34",
+        "role": "Database Reliability"
     }
 }
